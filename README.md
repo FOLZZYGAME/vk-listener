@@ -4,9 +4,6 @@
 
 <h1 align="center"> Как использовать </h1>
 
-<h3 align="center"> Установите chromedriver.exe Вашей версии Google Chrome (https://chromedriver.chromium.org/downloads)<h2>
-<h3 align="center"> Перетащите chromedriver.exe в C:/Users/User/AppData/Local/Google/Chrome<h2>
-
 
 ```python
 import vk-listener

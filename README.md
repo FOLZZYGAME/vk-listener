@@ -4,8 +4,8 @@
 
 <h1 align="center"> Как использовать </h1>
 
-<h2 align="center"> Установите chromedriver.exe Вашей версии Google Chrome (https://chromedriver.chromium.org/downloads)<h2>
-<h2 align="center"> Перетащите chromedriver.exe в C:/Users/User/AppData/Local/Google/Chrome<h2>
+<h3 align="center"> Установите chromedriver.exe Вашей версии Google Chrome (https://chromedriver.chromium.org/downloads)<h2>
+<h3 align="center"> Перетащите chromedriver.exe в C:/Users/User/AppData/Local/Google/Chrome<h2>
 
 
 ```python
@@ -13,12 +13,12 @@ import vk-listener
 
 listener.init('hide')
 
-listener.authorization('login', 'password')
+listener.authorization('Логин', 'Пароль')
 
 if(listener.check()):
-	print('Authorization was successful!')
+	print('Авторизация прошла успешно!')
 else:
-	print('Authorisation Error!')
+	print('Ошибка авторизации!')
 
-listener.loop('album title', 15)
+listener.loop('Ссылка на Ваш альбом', 15)
 ```

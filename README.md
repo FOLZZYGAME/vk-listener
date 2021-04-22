@@ -1,6 +1,6 @@
 <h1 align="center">VK-Listener</h1>
 
-<h2>VK-Listener - модуль для накрутки прослушиваний в Альбоме для социальной сети ВКонтакте
+<h2>VK-Listener - Модуль для Накрутки Прослушиваний в Вашем или Любом Другом Альбоме в Социальной Сети ВКонтакте
 
 <h4>1. Установите chromedriver.exe Вашей версии Google Chrome<h3>
 <h4>2. Перетащите chromedriver.exe в C:\Users\User\AppData\Local\Google\Chrome<h4>

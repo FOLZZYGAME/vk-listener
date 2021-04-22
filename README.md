@@ -1,8 +1,11 @@
-<h1 align="center">vk-listener - Module for Listening to VKontakte Albums.</h1>
+<h1 align="center">VK-Listener - модуль для накручивания прослушиваний на Ваш альбом ВКонтакте.</h1>
 
 <br>
 
 <h1 align="center"> How to use </h1>
+
+<h2 align="center"> Перед использованием убедитесь, что у Вас установлен chromedriver Вашей версии Google Chrome. <h2>
+
 
 ```python
 import vk-listener

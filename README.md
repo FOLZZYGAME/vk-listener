@@ -2,9 +2,10 @@
 
 <br>
 
-<h1 align="center"> How to use </h1>
+<h1 align="center"> Как использовать </h1>
 
-<h2 align="center"> Перед использованием убедитесь, что у Вас установлен chromedriver Вашей версии Google Chrome. <h2>
+<h2 align="center"> Установите chromedriver.exe Вашей версии Google Chrome (https://chromedriver.chromium.org/downloads)<h2>
+<h2 align="center"> Перетащите chromedriver.exe в C:/Users/User/AppData/Local/Google/Chrome<h2>
 
 
 ```python

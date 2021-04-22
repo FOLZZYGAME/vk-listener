@@ -1,6 +1,7 @@
-<h1 align="center">VK-Listener - модуль для накручивания прослушиваний на Ваш альбом ВКонтакте.</h1>
+<h1 align="center">VK-Listener</h1>
 
-<h1 align="center"> Как использовать </h1>
+<h3>Как использовать </h3>
+<h3>1. Установите chromedriver.exe Вашей версии Google Chrome<h3>
 
 
 ```python

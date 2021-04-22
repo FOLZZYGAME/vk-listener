@@ -1,11 +1,10 @@
 <h1 align="center">VK-Listener</h1>
 
-<h3>Как использовать</h3>
-<h3>1. Установите chromedriver.exe Вашей версии Google Chrome<h3>
-<h3>2. Перетащите chromedriver.exe в C:\Users\User\AppData\Local\Google\Chrome
-<h3>3. Если нет папки, то создай её<h3>
+<h2>VK-Listener - модуль для накрутки прослушиваний в Альбоме для социальной сети ВКонтакте
 
-<h1 align="center"Пример кода Vk-Listener"<h1>
+<h4>1. Установите chromedriver.exe Вашей версии Google Chrome<h3>
+<h4>2. Перетащите chromedriver.exe в C:\Users\User\AppData\Local\Google\Chrome<h4>
+<h4>3. Если нет папки, то создай её<h4>
 
 ```python
 import vk-listener

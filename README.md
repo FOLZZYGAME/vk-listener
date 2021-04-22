@@ -5,7 +5,7 @@
 <h1 align="center"> How to use </h1>
 
 ```python
-import listener
+import vk-listener
 
 # hide(hide) or show(add) browser
 listener.init('hide')

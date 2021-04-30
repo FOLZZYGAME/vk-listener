@@ -1,23 +1,17 @@
-from multiprocessing.dummy import Pool as ThreadPool
 from getpass import getuser
 from selenium import webdriver
 from random import randint
 import time, selenium, os
-import logging
 
 chrome = 'C:\\Users\\' + getuser() + '\\AppData\\Local\\Google\\Chrome'
 
-def init(headless):
+def begin(headless='show'):
 	global options
 	options = webdriver.ChromeOptions()
 	options.add_argument('--log-level=3')
 	options.add_argument("--mute-audio")
-	if(headless == 'show'):
-		pass
-	elif(headless == 'hide'):
+	if(headless == 'hide'):
 		options.add_argument("headless")
-	else:
-		print('Unexpected Error')
 	options.add_experimental_option("excludeSwitches", ["enable-automation"])
 	options.add_experimental_option('useAutomationExtension', False)
 
@@ -33,6 +27,12 @@ def authorization(login, password):
 	sign.send_keys(password)
 	button = driver.find_element_by_id("login_button")
 	button.click()
+	while True:
+		try:
+			driver.find_element_by_xpath('/html/body/div[12]/div/div/div[1]/div/header/ul/li[5]/a/div[1]')
+			break
+		except:
+			pass
 
 def check():
 	while True:

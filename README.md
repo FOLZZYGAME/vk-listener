@@ -1,4 +1,4 @@
-<h1 align="center">VK-Listener</h1>
+<h1 align="center">Raidium</h1>
 
 <h3>Module for Cheat Listening in your Album on the VKontakte Social Network<h3>
 
@@ -9,11 +9,11 @@
 <h3>A simple code example using the "Raidium" library<h3>
 
 ```python
-import vk-listener
+import raidium
 
-listener.init('hide')
+raidium.begin('hide')
 
-listener.authorization('Login', 'Password')
+raidium.authorization('Login', 'Password')
 
-listener.loop('Album link', 15)
+raidium.loop('Album link', 15)
 ```
